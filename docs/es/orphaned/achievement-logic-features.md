@@ -1,33 +1,40 @@
-Estas son algunas severas herramientas y opciones disponibles para el desarrollador. Saber como utilizarlas apropiadamente mejorara la calidad en tus sets. Estas herramientas/opciones pueden ser utilizadas en el Editor de Logros (Achievement Editor):
+---
+title: Características de la lógica de logros
+description: Hay varias herramientas y opciones disponibles para un desarrollador. Saber cómo utilizarlas adecuadamente mejorará la calidad de tus sets.
+---
 
-![achievement_editor](https://user-images.githubusercontent.com/8508804/33130013-0eb07d96-cf79-11e7-8f73-6d737dfe5e16.png)
+# Características de la lógica de logros
 
-Para mas ayuda relacionada con esto, nuestro [servidor de Discord](https://discord.gg/dq2E4hE) esta siempre abierto para ayuda.
+Hay varias herramientas y opciones disponibles para un desarrollador. Saber cómo utilizarlas adecuadamente mejorará la calidad de tus sets. Estas herramientas/opciones pueden ser utilizadas en el editor de logros:
 
-Aqui hay una lista de funciones disponibles:
+![editor_de_logros](https://user-images.githubusercontent.com/45054151/128662028-74e64baf-46ff-4c9f-9837-3684bfb42ad8.png)
 
-- <a name="hit-counts"></a>[Hit Counts](/es/developer-docs/hit-counts.html) (contador de golpes)
+Para obtener más ayuda sobre estos, nuestro [servidor de Discord](https://discord.gg/dq2E4hE) siempre está abierto para ayudarte.
 
-- <a name="delta-values"></a>[Valores Delta](/es/developer-docs/delta-values.html)
+Aquí está la lista de características disponibles:
 
-- <a name="resetif"></a>[Bandera `ResetIf`](/es/developer-docs/flags/resetif.html)
+- <a name="hit-counts"></a>[Contadores](/es/developer-docs/hit-counts)
 
-  - <a name="resetif-with-hit-counts"></a>[`ResetIf` con hit counts](/es/developer-docs/flags/resetif.html#resetif-with-hit-counts) (contador de golpes)
+- <a name="delta-values"></a>[Valores delta](/es/developer-docs/delta-values)
 
-- <a name="pauseif"></a>[Bandera `PauseIf`](/es/developer-docs/flags/pauseif.html)
+- <a name="resetif"></a>[Bandera `ResetIf`](/es/developer-docs/flags/resetif)
 
-  - <a name="pauseif-with-hit-counts"></a>[`PauseIf` con hit counts](/es/developer-docs/flags/pauseif.html#pauseif-with-hit-counts) (contador de golpes)
+- <a name="resetif-with-hit-counts"></a>[`ResetIf` con contadores](/es/developer-docs/flags/resetif#resetif-with-hit-counts)
 
-- <a name="addsource"></a>[Bandera `AddSource`](/es/developer-docs/flags/addsource.html)
+- <a name="pauseif"></a>[Bandera `PauseIf`](/es/developer-docs/flags/pauseif)
 
-- <a name="subsource"></a>[Bandera `SubSource`](/es/developer-docs/flags/subsource.html)
+- <a name="pauseif-with-hit-counts"></a>[`PauseIf` con contadores](/es/developer-docs/flags/pauseif#pauseif-with-hit-counts)
 
-  - <a name="checking-for-a-negative-result"></a>[Buscando un resultado negativo](/es/developer-docs/flags/subsource.html#checking-for-a-negative-result)
+- <a name="addsource"></a>[Bandera `AddSource`](/es/developer-docs/flags/addsource)
 
-- <a name="addhits"></a>[Bandera `AddHits`](/es/developer-docs/flags/addhits-subhits.html)
+- <a name="subsource"></a>[Bandera `SubSource`](/es/developer-docs/flags/subsource)
 
-- <a name="combining-flags"></a>[Combinando Banderas](/es/orphaned/combining-flags.html)
+- <a name="checking-for-a-negative-result"></a>[Comprobando un resultado negativo](/es/developer-docs/flags/subsource#checking-for-a-negative-result)
 
-- <a name="alt-groups"></a>[Alt Groups](/es/developer-docs/alt-groups.html) (Grupos Alternos)
+- <a name="addhits"></a>[Banderas `AddHits` y `SubHits`](/es/developer-docs/flags/addhits-subhits)
 
-- <a name="minimum-required-versions"></a>[Versiones Minimas para Funciones de Logica](/es/developer-docs/minimum-required-versions-for-logic-features.html)
+- <a name="combining-flags"></a>[Combinado de banderas](/es/orphaned/combining-flags)
+
+- <a name="alt-groups"></a>[Agrupado alt](/es/developer-docs/alt-groups)
+
+- <a name="minimum-required-versions"></a>[Versión mínima requerida para las características de lógica](/es/developer-docs/minimum-required-versions-for-logic-features)

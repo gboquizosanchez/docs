@@ -1,3 +1,9 @@
-Un `ResetIf` y `PauseIf` pueden ser aplicados al numero que sea de condiciones `AddHits`, `AddSource`, y `SubSource`.
+---
+title: Combinado de banderas
+---
 
-Volviendo al [ejemplo del `AddSource`](/es/developer-docs/flags/addsource.html) de arriba, si un `ResetIf` se aplicara a la condicion 2, el logro se reiniciaría porque `1 + 2 > 0`.
+# Combinado de banderas
+
+`ResetIf` y `PauseIf` pueden aplicarse a una condición siguiendo cualquier número de condiciones `AddHits`, `AddSource` o `SubSource`.
+
+Volver al [ejemplo de `AddSource`](/es/developer-docs/flags/addsource) anterior, si `ResetIf` se aplicara a la condición 2, el logro se reiniciaría porque `1 + 2 > 0`.
